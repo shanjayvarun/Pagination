@@ -1,0 +1,43 @@
+.pagination{
+  display: block
+  text-align: right
+  
+}
+.pagination a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 1px;
+  font-size: 30px;
+  float: center;
+  transition: background-color 0.2
+}
+ .active{
+  background-color: white
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+.pagination a:hover:not(.active){
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+.b{
+  font-size: 500%;
+  margin-top:30px;
+  text-align: center;
+}
+body{
+  background-color:teal;
+}
+#About{
+  color:white;
+  font-size:25px;
+  padding-right: 30px;
+  display:fixed;
+  text-align: center
+}
+.centere{
+  text-align: center;
+}
